@@ -1,0 +1,5826 @@
+[
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4522935,
+    "lon": -0.1098896,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 33378270,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2024-06-25"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/33378270"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/33378270",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4815565,
+    "lon": -0.0923397,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 247049800,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2026-08-29"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/247049800"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/247049800",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4488678,
+    "lon": -0.1067566,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 273460550,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "female": "no",
+        "male": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/273460550"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/273460550",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4682771,
+    "lon": -0.066871,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 280885803,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "created_by": "Potlatch 0.10"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/280885803"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/280885803",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4486164,
+    "lon": -0.106439,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 281580306,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "female": "yes",
+        "male": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/281580306"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/281580306",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4452359,
+    "lon": -0.0786093,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 370261548,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2026-01-10",
+        "fee": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/370261548"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/370261548",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5088161,
+    "lon": -0.0788891,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 694510919,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "charge": "1 GBP",
+        "check_date": "2025-04-19",
+        "check_date:wheelchair": "2025-04-20",
+        "fee": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/694510919"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/694510919",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.504837,
+    "lon": -0.086416,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 918721618,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2022-03-17",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/918721618"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/918721618",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5045004,
+    "lon": -0.078585,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1088333795,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "fee": "yes",
+        "female": "yes",
+        "male": "yes",
+        "opening_hours": "24/7",
+        "operator": "More London",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1088333795"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1088333795",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5048975,
+    "lon": -0.0825117,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1102236526,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2021-08-18",
+        "fee": "yes",
+        "female": "yes",
+        "male": "yes",
+        "operator": "More London",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1102236526"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1102236526",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4744846,
+    "lon": -0.1026166,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1412226827,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1412226827"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1412226827",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4288196,
+    "lon": -0.0471327,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1649317042,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1649317042"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1649317042",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4739191,
+    "lon": -0.0352604,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1656334886,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permit",
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1656334886"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1656334886",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4725371,
+    "lon": -0.0373086,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1658544859,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1658544859"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1658544859",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4724021,
+    "lon": -0.0369479,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1667373942,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "source": "Personal knowledge"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1667373942"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1667373942",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4740702,
+    "lon": -0.0359078,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1670423000,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permit",
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1670423000"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1670423000",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4751972,
+    "lon": -0.0361917,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1676805184,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permit",
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1676805184"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1676805184",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4746457,
+    "lon": -0.0376848,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1684609581,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "designation": "Ground floor",
+        "source": "Personal knowledge"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1684609581"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1684609581",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4750732,
+    "lon": -0.0358235,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1684643221,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permit",
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1684643221"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1684643221",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4769573,
+    "lon": -0.0419425,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1684652387,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1684652387"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1684652387",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4764782,
+    "lon": -0.0323798,
+    "name": "New Cross Rail Station",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1684656254,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-09-10",
+        "check_date:wheelchair": "2025-09-10",
+        "fee": "no",
+        "name": "New Cross Rail Station",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1684656254"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1684656254",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4741436,
+    "lon": -0.0366136,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1685968030,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1685968030"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1685968030",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4764159,
+    "lon": -0.0376996,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1686284781,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "private",
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1686284781"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1686284781",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4748469,
+    "lon": -0.0357275,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1686333587,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permit",
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1686333587"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1686333587",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.474385,
+    "lon": -0.0380811,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1686505988,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1686505988"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1686505988",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4741529,
+    "lon": -0.0379738,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1686505990,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1686505990"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1686505990",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5092971,
+    "lon": -0.090704,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 1723656498,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "charge": "0.20 GBP",
+        "fee": "yes",
+        "payment:coins": "only"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/1723656498"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/1723656498",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4411336,
+    "lon": -0.0613081,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 2410984413,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2023-06-17",
+        "fee": "no",
+        "level": "0",
+        "source": "survey",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/2410984413"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/2410984413",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.436198,
+    "lon": -0.0554908,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 2420135820,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/2420135820"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/2420135820",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4267292,
+    "lon": -0.054487,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 2541311406,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "level": "0",
+        "opening_hours": "24/7",
+        "operator": "healthmatic",
+        "toilets:handwashing": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/2541311406"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/2541311406",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4416457,
+    "lon": -0.0614337,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 2863274266,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2023-06-17",
+        "fee": "no",
+        "level": "0",
+        "source": "survey",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/2863274266"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/2863274266",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4888975,
+    "lon": -0.091188,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 2897395303,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-08-30",
+        "opening_hours": "Tu-Fr 07:30-17:30"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/2897395303"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/2897395303",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.440465,
+    "lon": -0.0623808,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 2924796320,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/2924796320"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/2924796320",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4727711,
+    "lon": -0.0684732,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 2950089188,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2024-11-08",
+        "operator": "Morrisons",
+        "operator:type": "private",
+        "operator:wikidata": "Q922344"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/2950089188"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/2950089188",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5065114,
+    "lon": -0.0733054,
+    "name": "London - Tower Supercharger",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 3137364447,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla, Inc.",
+        "brand:wikidata": "Q478214",
+        "capacity": "2",
+        "layer": "-1",
+        "level": "-1",
+        "motorcar": "yes",
+        "name": "London - Tower Supercharger",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "tesla:ref": "londontowersupercharger"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/3137364447"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/3137364447",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.507073,
+    "lon": -0.1009079,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 3248948327,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "Source London",
+        "brand:wikidata": "Q7565133",
+        "brand:wikipedia": "en:Source London",
+        "capacity": "2",
+        "name": "Source London",
+        "operator": "Source London",
+        "operator:wikidata": "Q7565133",
+        "source": "survey"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/3248948327"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/3248948327",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.500063,
+    "lon": -0.0993289,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 3335885009,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "amperage": "32",
+        "brand": "Source London",
+        "brand:wikidata": "Q7565133",
+        "capacity": "1",
+        "name": "Source London",
+        "operator": "Source London",
+        "operator:wikidata": "Q7565133",
+        "voltage": "230"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/3335885009"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/3335885009",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5029591,
+    "lon": -0.0971023,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 3335885010,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "amperage": "13",
+        "brand": "Source London",
+        "brand:wikidata": "Q7565133",
+        "capacity": "1",
+        "name": "Source London",
+        "operator": "Source London",
+        "operator:wikidata": "Q7565133",
+        "voltage": "230"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/3335885010"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/3335885010",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5087387,
+    "lon": -0.0756504,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 3453930440,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "female": "yes",
+        "male": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/3453930440"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/3453930440",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4836374,
+    "lon": -0.0841329,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 3578820613,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "check_date": "2026-06-08",
+        "check_date:wheelchair": "2026-06-08",
+        "fee": "no",
+        "unisex": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/3578820613"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/3578820613",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4421949,
+    "lon": -0.089743,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 3764498529,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/3764498529"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/3764498529",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4931985,
+    "lon": -0.0359248,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4130240424,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated;urinal"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4130240424"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4130240424",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4936197,
+    "lon": -0.0332387,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4155735358,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "bottle": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "man_made": "water_tap",
+        "opening_hours": "24/7",
+        "operator": "South Dock Marina",
+        "seasonal": "no",
+        "toilets:disposal": "flush"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4155735358"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4155735358",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4488221,
+    "lon": -0.0745675,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4320730261,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4320730261"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4320730261",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4606388,
+    "lon": -0.0610134,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4406389190,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4406389190"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4406389190",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4656133,
+    "lon": -0.0595535,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4438342675,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4438342675"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4438342675",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.503409,
+    "lon": -0.0953195,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4706665125,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "disabled": "yes",
+        "fee": "no",
+        "unisex": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4706665125"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4706665125",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5068781,
+    "lon": -0.0676531,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4811523921,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2025-03-23",
+        "check_date:wheelchair": "2025-03-23",
+        "fee": "no",
+        "operator": "Waitrose & Partners",
+        "operator:wikidata": "Q771734",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4811523921"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4811523921",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5068543,
+    "lon": -0.0727647,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4815428300,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4815428300"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4815428300",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4461108,
+    "lon": -0.0856549,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4847771921,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2023-08-27",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4847771921"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4847771921",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.496148,
+    "lon": -0.1088737,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4863526002,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-07-18",
+        "fee": "no",
+        "level": "-1",
+        "male": "yes",
+        "operator": "The Imperial War Museum",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4863526002"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4863526002",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4961405,
+    "lon": -0.1083052,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4863526003,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-07-18",
+        "fee": "no",
+        "female": "yes",
+        "level": "-1",
+        "operator": "The Imperial War Museum",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4863526003"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4863526003",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5043778,
+    "lon": -0.0901812,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 4954395594,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "check_date": "2023-04-09",
+        "fee": "no",
+        "level": "0",
+        "male": "yes",
+        "source": "survey",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "wheelchair": "limited"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/4954395594"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/4954395594",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5077721,
+    "lon": -0.109912,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 5300643105,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2025-12-15",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/5300643105"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/5300643105",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5061658,
+    "lon": -0.1019305,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 5422090992,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "motorcar": "yes",
+        "operator": "bp pulse",
+        "operator:wikidata": "Q39057719"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/5422090992"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/5422090992",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.504667,
+    "lon": -0.0937836,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 5493233146,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "capacity": "1",
+        "operator": "polar"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/5493233146"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/5493233146",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5041962,
+    "lon": -0.1084446,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 5573989327,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2023-06-28",
+        "female": "yes",
+        "level": "1",
+        "male": "yes",
+        "toilets:disposal": "flush"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/5573989327"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/5573989327",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4503028,
+    "lon": -0.0605383,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 5695146921,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/5695146921"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/5695146921",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5046134,
+    "lon": -0.0857359,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 5760381483,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2024-01-24",
+        "fee": "no",
+        "level": "0",
+        "source": "survey",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/5760381483"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/5760381483",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5072612,
+    "lon": -0.0758734,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 6018047359,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "wheelchair": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/6018047359"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/6018047359",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4891005,
+    "lon": -0.1106634,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 6442419920,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/6442419920"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/6442419920",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4950024,
+    "lon": -0.0545799,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 6518234248,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/6518234248"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/6518234248",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5054891,
+    "lon": -0.0894683,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 6598856043,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/6598856043"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/6598856043",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4680675,
+    "lon": -0.0442161,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 6883892545,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Source London",
+        "brand:wikidata": "Q7565133",
+        "brand:wikipedia": "en:Source London",
+        "capacity": "1",
+        "name": "Source London",
+        "operator": "Source London",
+        "operator:wikidata": "Q7565133"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/6883892545"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/6883892545",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4759822,
+    "lon": -0.0368319,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 6893229927,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "capacity": "1"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/6893229927"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/6893229927",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4680644,
+    "lon": -0.0442674,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 7241094693,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Source London",
+        "brand:wikidata": "Q7565133",
+        "brand:wikipedia": "en:Source London",
+        "capacity": "1",
+        "name": "Source London",
+        "operator": "Source London",
+        "operator:wikidata": "Q7565133"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/7241094693"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/7241094693",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4276176,
+    "lon": -0.0651582,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 7287963256,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "name": "Source London"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/7287963256"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/7287963256",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4275769,
+    "lon": -0.0651941,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 7288010238,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "name": "Source London"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/7288010238"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/7288010238",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4940312,
+    "lon": -0.0543005,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 7954738233,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/7954738233"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/7954738233",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.505181,
+    "lon": -0.0970848,
+    "name": "bp pulse",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 8424132634,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "no",
+        "amenity": "charging_station",
+        "brand": "bp pulse",
+        "brand:wikidata": "Q39057719",
+        "capacity": "2",
+        "name": "bp pulse",
+        "operator": "bp pulse",
+        "operator:wikidata": "Q39057719",
+        "ref": "BPT380",
+        "taxi": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/8424132634"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/8424132634",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4868762,
+    "lon": -0.102921,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 8541885469,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/8541885469"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/8541885469",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4357818,
+    "lon": -0.0559992,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 8735993388,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/8735993388"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/8735993388",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4983395,
+    "lon": -0.035372,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 8897683269,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "charging_station:output": "5.29 KW",
+        "fee": "yes",
+        "operator": "Char.gy",
+        "socket:type2": "1"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/8897683269"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/8897683269",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4983409,
+    "lon": -0.0351341,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 8897683270,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "charging_station:output": "5.29 KW",
+        "fee": "yes",
+        "operator": "Char.gy",
+        "socket:type2": "1"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/8897683270"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/8897683270",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4959663,
+    "lon": -0.0467599,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 9432116190,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "female": "yes",
+        "level": "0",
+        "male": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/9432116190"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/9432116190",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4277359,
+    "lon": -0.0865841,
+    "name": "ChargePoint",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 9893464122,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "1",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/9893464122"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/9893464122",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5009641,
+    "lon": -0.0832025,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 9939542318,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "2",
+        "check_date": "2022-08-08",
+        "operator": "char.gy",
+        "ref": "00077"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/9939542318"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/9939542318",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5013042,
+    "lon": -0.0521935,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 9999476217,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "Source London",
+        "brand:wikidata": "Q7565133",
+        "brand:wikipedia": "en:Source London",
+        "capacity": "1",
+        "check_date": "2022-09-04",
+        "name": "Source London",
+        "operator": "Source London",
+        "operator:wikidata": "Q7565133"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/9999476217"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/9999476217",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4685394,
+    "lon": -0.06434,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 10097325604,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "capacity": "1",
+        "fee": "yes",
+        "operator": "char.gy",
+        "ref": "00805",
+        "website": "https://char.gy/00805"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/10097325604"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/10097325604",
+    "url": "https://char.gy/00805"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4976268,
+    "lon": -0.0474897,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 10219881986,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "female": "yes",
+        "level": "-1",
+        "male": "yes",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/10219881986"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/10219881986",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4305513,
+    "lon": -0.0342666,
+    "name": "podpoint",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 10676690762,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "level": "0",
+        "name": "podpoint",
+        "operator": "Pod Point",
+        "operator:wikidata": "Q42888154",
+        "source": "survey"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/10676690762"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/10676690762",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4953893,
+    "lon": -0.0466952,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 10745161073,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "level": "1",
+        "wheelchair": "limited"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/10745161073"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/10745161073",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4682278,
+    "lon": -0.0938714,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 10753735271,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2024-06-25",
+        "fee": "no",
+        "male": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/10753735271"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/10753735271",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4681873,
+    "lon": -0.0940353,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 10753735272,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "check_date": "2024-08-21",
+        "fee": "no",
+        "female": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/10753735272"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/10753735272",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.471932,
+    "lon": -0.0307467,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 10780475225,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/10780475225"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/10780475225",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4898743,
+    "lon": -0.0889423,
+    "name": "Dawes Street",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11143987815,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "name": "Dawes Street",
+        "opening_hours": "Tu-Fr 07:30-17:30"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11143987815"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11143987815",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4985796,
+    "lon": -0.098715,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11162933890,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11162933890"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11162933890",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4936008,
+    "lon": -0.0980808,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11163031241,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11163031241"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11163031241",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4676023,
+    "lon": -0.1010886,
+    "name": "Clenergy",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11163444642,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Clenergy",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "check_date": "2026-02-20",
+        "name": "Clenergy",
+        "operator": "Clenergy",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11163444642"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11163444642",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4685213,
+    "lon": -0.1014216,
+    "name": "Clenergy",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11163444643,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Clenergy",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "check_date": "2026-02-20",
+        "name": "Clenergy",
+        "operator": "Clenergy",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11163444643"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11163444643",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4668896,
+    "lon": -0.1015752,
+    "name": "Clenergy",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11163444650,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Clenergy",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "check_date": "2026-02-20",
+        "name": "Clenergy",
+        "operator": "Clenergy",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11163444650"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11163444650",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4678253,
+    "lon": -0.0970085,
+    "name": "ubitricity",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11163454568,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "ubitricity",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "name": "ubitricity",
+        "operator": "ubitricity",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11163454568"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11163454568",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.462912,
+    "lon": -0.0937803,
+    "name": "ubitricity",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11165398784,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "ubitricity",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "name": "ubitricity",
+        "operator": "ubitricity",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11165398784"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11165398784",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4625075,
+    "lon": -0.0925117,
+    "name": "ubitricity",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11165398790,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "ubitricity",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "name": "ubitricity",
+        "operator": "ubitricity",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11165398790"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11165398790",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4681415,
+    "lon": -0.0883988,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11165624823,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "check_date": "2025-10-16"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11165624823"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11165624823",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4689553,
+    "lon": -0.1013164,
+    "name": "Clenergy",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11165684398,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Clenergy",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "check_date": "2026-02-20",
+        "name": "Clenergy",
+        "operator": "Clenergy",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11165684398"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11165684398",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4691738,
+    "lon": -0.1013599,
+    "name": "Clenergy",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11165684399,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Clenergy",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "check_date": "2026-02-20",
+        "name": "Clenergy",
+        "operator": "Clenergy",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11165684399"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11165684399",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4639087,
+    "lon": -0.089829,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11179013183,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "fee": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11179013183"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11179013183",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4944189,
+    "lon": -0.0910878,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11185941062,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "MFG",
+        "operator": "Motor Fuel Group",
+        "operator:short": "MFG",
+        "operator:wikidata": "Q107271358"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11185941062"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11185941062",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.504862,
+    "lon": -0.0943809,
+    "name": "bp pulse",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11216248560,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "bp pulse",
+        "brand:wikidata": "Q39057719",
+        "capacity": "1",
+        "name": "bp pulse",
+        "operator": "bp pulse",
+        "operator:wikidata": "Q39057719",
+        "ref": "BPT374"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11216248560"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11216248560",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4696494,
+    "lon": -0.0610682,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11331666229,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "website": "https://char.gy/00842"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11331666229"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11331666229",
+    "url": "https://char.gy/00842"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4652649,
+    "lon": -0.0581942,
+    "name": "Source London",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11331687532,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "Source London",
+        "brand:wikidata": "Q7565133",
+        "capacity": "1",
+        "name": "Source London",
+        "operator": "Source London",
+        "operator:wikidata": "Q7565133"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11331687532"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11331687532",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4680311,
+    "lon": -0.0592963,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11331691120,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "website": "https://char.gy/00607"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11331691120"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11331691120",
+    "url": "https://char.gy/00607"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.465582,
+    "lon": -0.0592071,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11331692681,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "amperage": "25",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "website": "https://char.gy/04007"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11331692681"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11331692681",
+    "url": "https://char.gy/04007"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4673175,
+    "lon": -0.0603256,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11331693110,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "amperage": "25",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "website": "https://char.gy/03914"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11331693110"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11331693110",
+    "url": "https://char.gy/03914"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4679856,
+    "lon": -0.0626457,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11331694478,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "amperage": "32",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "voltage": "5.1 kW",
+        "website": "https://char.gy/00875"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11331694478"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11331694478",
+    "url": "https://char.gy/00875"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4314048,
+    "lon": -0.0318347,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11695358506,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "charging_station"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11695358506"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11695358506",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4844168,
+    "lon": -0.0689108,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11734919833,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "no",
+        "amenity": "charging_station",
+        "brand": "Instavolt",
+        "capacity": "2",
+        "check_date": "2025-10-15",
+        "fee": "yes",
+        "operator": "InstaVolt",
+        "operator:wikidata": "Q111173904",
+        "payment:app": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "source": "survey"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11734919833"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11734919833",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4671599,
+    "lon": -0.099442,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11778164282,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "check_date": "2025-12-21",
+        "fee": "yes",
+        "operator": "Char.gy"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11778164282"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11778164282",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4647844,
+    "lon": -0.0967483,
+    "name": "ubitricity",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11778191712,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ubitricity",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "fee": "yes",
+        "motorcar": "yes",
+        "name": "ubitricity",
+        "operator": "ubitricity",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11778191712"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11778191712",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4643867,
+    "lon": -0.0971227,
+    "name": "ubitricity",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11778218095,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "ubitricity",
+        "brand:wikidata": "Q113699692",
+        "capacity": "1",
+        "fee": "yes",
+        "name": "ubitricity",
+        "operator": "ubitricity",
+        "operator:wikidata": "Q113699692"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11778218095"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11778218095",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4611636,
+    "lon": -0.0962926,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11778916679,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "check_date": "2026-04-21",
+        "fee": "yes",
+        "image": "https://www.celsoazevedo.com/files/2024/charger_127_Herne_Hill_Road.jpg",
+        "operator": "Char.gy"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11778916679"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11778916679",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4744544,
+    "lon": -0.0965719,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11825746116,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "fee": "yes",
+        "operator": "Char.gy"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11825746116"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11825746116",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4739501,
+    "lon": -0.0969704,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11825746117,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "fee": "yes",
+        "image": "https://www.celsoazevedo.com/files/2024/charger_20240417_post_office.jpg"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11825746117"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11825746117",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5072763,
+    "lon": -0.0759426,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11942067115,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "fee": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11942067115"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11942067115",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5074166,
+    "lon": -0.0752773,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 11942067283,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "fee": "no",
+        "male": "yes",
+        "wheelchair": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/11942067283"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/11942067283",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4836466,
+    "lon": -0.0843186,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 12135958695,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/12135958695"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/12135958695",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4949176,
+    "lon": -0.0456341,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 12138682277,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "operator": "Tesco",
+        "operator:type": "private",
+        "operator:wikidata": "Q487494",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/12138682277"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/12138682277",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4661513,
+    "lon": -0.0955317,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 12324121917,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2026-04-21",
+        "check_date:wheelchair": "2025-06-09",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/12324121917"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/12324121917",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5067348,
+    "lon": -0.072744,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 12712824643,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permit",
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/12712824643"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/12712824643",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5068413,
+    "lon": -0.0727687,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 12712824644,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "female": "yes",
+        "male": "no",
+        "toilets:disposal": "flush",
+        "wheelchair": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/12712824644"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/12712824644",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5045257,
+    "lon": -0.0854704,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 12714591431,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/12714591431"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/12714591431",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5015461,
+    "lon": -0.0509933,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 12763319766,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/12763319766"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/12763319766",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5047254,
+    "lon": -0.0923011,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 12864600515,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/12864600515"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/12864600515",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5050688,
+    "lon": -0.0963024,
+    "name": "bp pulse",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13019782530,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "taxi",
+        "amenity": "charging_station",
+        "brand": "bp pulse",
+        "brand:wikidata": "Q39057719",
+        "capacity": "2",
+        "name": "bp pulse",
+        "operator": "bp pulse",
+        "operator:wikidata": "Q39057719",
+        "ref": "BPT506"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13019782530"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13019782530",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4659341,
+    "lon": -0.1001041,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13085100081,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "capacity": "1",
+        "check_date": "2026-05-26",
+        "fee": "yes",
+        "operator": "Clenergy",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "payment:online_payment": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13085100081"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13085100081",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4898814,
+    "lon": -0.0428037,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13120256275,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "capacity": "7",
+        "operator": "InstaVolt",
+        "operator:wikidata": "Q111173904"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13120256275"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13120256275",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4876861,
+    "lon": -0.0387078,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13144225781,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13144225781"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13144225781",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4728397,
+    "lon": -0.0712517,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13185773205,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "capacity": "2",
+        "check_date": "2025-10-01",
+        "fee": "yes",
+        "operator": "Lidl",
+        "payment:app": "yes",
+        "payment:contactless": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13185773205"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13185773205",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4961984,
+    "lon": -0.0825853,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13356553334,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "BP Pulse",
+        "brand:wikidata": "Q39057719",
+        "capacity": "50",
+        "check_date": "2025-12-05",
+        "operator": "BP",
+        "operator:wikidata": "Q152057"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13356553334"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13356553334",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.505498,
+    "lon": -0.0839925,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13376685632,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "customers",
+        "amenity": "toilets",
+        "check_date": "2026-03-03",
+        "description": "retail customers only, PIN code required from shop. Down stairs to either side of concourse",
+        "female": "yes",
+        "level": "-1",
+        "locked": "pin",
+        "male": "yes",
+        "wheelchair": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13376685632"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13376685632",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5049949,
+    "lon": -0.0849241,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13376685634,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13376685634"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13376685634",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4434717,
+    "lon": -0.0627127,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13883072116,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2026-05-26",
+        "fee": "no",
+        "operator": "Horniman Museum",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "unisex": "yes",
+        "wheelchair": "designated"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13883072116"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13883072116",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4756886,
+    "lon": -0.046568,
+    "name": "Toilet",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13906805573,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "name": "Toilet"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13906805573"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13906805573",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5051987,
+    "lon": -0.0903703,
+    "name": "Borough Market Toilets",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13909787668,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "toilets",
+        "name": "Borough Market Toilets"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13909787668"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13909787668",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4300582,
+    "lon": -0.034059,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13913224328,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13913224328"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13913224328",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4454836,
+    "lon": -0.0865779,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 13918099534,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2026-06-07",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/13918099534"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/13918099534",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4836261,
+    "lon": -0.0661443,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 14020574949,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "check_date": "2026-07-16",
+        "operator": "InstaVolt",
+        "operator:wikidata": "Q111173904"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/14020574949"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/14020574949",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4239804,
+    "lon": -0.0690607,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 14024267837,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/14024267837"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/14024267837",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5029932,
+    "lon": -0.0494129,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 14106360257,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity:motorcar": "1"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/14106360257"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/14106360257",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.5027019,
+    "lon": -0.0489806,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 14106396014,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity:motorcar": "1"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/14106396014"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/14106396014",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5079186,
+    "lon": -0.100238,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 14134762876,
+      "osm_type": "node",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2026-09-20",
+        "check_date:wheelchair": "2026-09-20",
+        "fee": "no",
+        "level": "0",
+        "opening_hours": "Tu-Sa 10:00-23:00; Su-Mo 10:00-18:00",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/14134762876"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/14134762876",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4560423,
+    "lon": -0.0972264,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 14135143426,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:qrcode": "yes",
+        "authentication:website": "yes",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "fee": "yes",
+        "network": "char.gy",
+        "operator": "char.gy",
+        "ref": "02185",
+        "socket:type2": "1",
+        "socket:type2:current": "25",
+        "socket:type2:output": "5.8kW",
+        "socket:type2:voltage": "230",
+        "website": "https://char.gy/02185"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/14135143426"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/14135143426",
+    "url": "https://char.gy/02185"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4558544,
+    "lon": -0.0969245,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 14135143427,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:qrcode": "yes",
+        "authentication:website": "yes",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "fee": "yes",
+        "network": "char.gy",
+        "operator": "char.gy",
+        "ref": "02329",
+        "socket:type2": "1",
+        "socket:type2:current": "25",
+        "socket:type2:output": "5.8kW",
+        "socket:type2:voltage": "230",
+        "website": "https://char.gy/02185"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/14135143427"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/14135143427",
+    "url": "https://char.gy/02185"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4550208,
+    "lon": -0.0954885,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_NODE_COORDINATE",
+      "is_real": true,
+      "osm_id": 14135143428,
+      "osm_type": "node",
+      "raw_tags": {
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:qrcode": "yes",
+        "authentication:website": "yes",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698",
+        "capacity": "1",
+        "fee": "yes",
+        "network": "char.gy",
+        "operator": "char.gy",
+        "ref": "00032",
+        "socket:type2": "1",
+        "socket:type2:current": "25",
+        "socket:type2:output": "5.8kW",
+        "socket:type2:voltage": "230",
+        "website": "https://char.gy/02185"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "node/14135143428"
+      }
+    ],
+    "source": "osm",
+    "source_id": "node/14135143428",
+    "url": "https://char.gy/02185"
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4465503,
+    "lon": -0.0827067,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 5028979,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/5028979"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/5028979",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4638973,
+    "lon": -0.0939515,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 27412448,
+      "osm_type": "way",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2026-04-21",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/27412448"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/27412448",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4346089,
+    "lon": -0.0688546,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 43579575,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "shed",
+        "toilets:disposal": "pitlatrine",
+        "toilets:handwashing": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/43579575"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/43579575",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4583858,
+    "lon": -0.0618709,
+    "name": "Peckham Rye Park",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 81679182,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "name": "Peckham Rye Park",
+        "opening_hours": "Mo-Su 07:30-16:30",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/81679182"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/81679182",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4372831,
+    "lon": -0.0736678,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 145180510,
+      "osm_type": "way",
+      "raw_tags": {
+        "access": "private",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/145180510"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/145180510",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4494993,
+    "lon": -0.1088098,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 317411466,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "area": "yes",
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/317411466"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/317411466",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4728393,
+    "lon": -0.1056141,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 318987235,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/318987235"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/318987235",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4624039,
+    "lon": -0.0848392,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 434991782,
+      "osm_type": "way",
+      "raw_tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2025-07-24",
+        "fee": "no"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/434991782"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/434991782",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4292018,
+    "lon": -0.0675493,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 436083602,
+      "osm_type": "way",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "operator": "Lewisham London Borough Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q6537320",
+        "supervised": "no",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal;seated",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/436083602"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/436083602",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4849722,
+    "lon": -0.077785,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 545286376,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "toilets",
+        "building:levels": "1",
+        "fee": "no",
+        "wheelchair": "limited"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/545286376"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/545286376",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4258629,
+    "lon": -0.0942277,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 550708433,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "unisex": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/550708433"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/550708433",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5061239,
+    "lon": -0.0911778,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 810273915,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "changing_table": "yes",
+        "fee": "no",
+        "female": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/810273915"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/810273915",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.5061412,
+    "lon": -0.0912776,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 810273917,
+      "osm_type": "way",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "check_date": "2026-03-20",
+        "fee": "no",
+        "male": "yes",
+        "note": "Toilets for market, also used by The Rake"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/810273917"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/810273917",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4839616,
+    "lon": -0.1073752,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 1170409078,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "check_date": "2026-07-30",
+        "check_date:wheelchair": "2026-07-30",
+        "fee": "no",
+        "wheelchair": "limited"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/1170409078"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/1170409078",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4835403,
+    "lon": -0.1079357,
+    "name": "children's toilet",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 1170409079,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "name": "children's toilet"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/1170409079"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/1170409079",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.4999417,
+    "lon": -0.0329279,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 1205352846,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/1205352846"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/1205352846",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "toilets",
+    "city": "",
+    "district": "",
+    "lat": 51.478941,
+    "lon": -0.053653,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 1265195316,
+      "osm_type": "way",
+      "raw_tags": {
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/1265195316"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/1265195316",
+    "url": ""
+  },
+  {
+    "address": "",
+    "aliases": [],
+    "category": "charging_station",
+    "city": "",
+    "district": "",
+    "lat": 51.4366644,
+    "lon": -0.1058292,
+    "name": "",
+    "phone": "",
+    "properties": {
+      "coordinate_kind": "OSM_BOUNDING_BOX_CENTER_PROXY",
+      "is_real": true,
+      "osm_id": 1536342540,
+      "osm_type": "way",
+      "raw_tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Clenergy",
+        "capacity": "1",
+        "covered": "no",
+        "description": "Secondary reference suby1100005563",
+        "fee": "yes",
+        "operator": "Lambeth",
+        "ref": "022517"
+      }
+    },
+    "provenance": [
+      {
+        "license_note": "ODbL 1.0; © OpenStreetMap contributors",
+        "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+        "source": "osm",
+        "source_id": "way/1536342540"
+      }
+    ],
+    "source": "osm",
+    "source_id": "way/1536342540",
+    "url": ""
+  }
+]

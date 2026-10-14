@@ -107,7 +107,8 @@ class RoleMapping:
     def role_of(self, category: str) -> Role | None:
         return self.roles.get(category)
 
-    def categories(self, role: Role) -> tuple[str, ...]:
+    def categories(self, role: Role | str) -> tuple[str, ...]:
+        role = Role(role)  # accept the plain string value too, never silently match nothing
         return tuple(sorted(c for c, r in self.roles.items() if r is role))
 
     @property

@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-app = ["streamlit>=1.40,<2", "plotly>=5,<7", "pandas>=2.2,<3"]
+app = ["streamlit>=1.65,<2", "plotly>=5,<7", "pandas>=2.2,<3"]
 test = ["pytest>=8,<10"]
 
 [tool.setuptools.packages.find]

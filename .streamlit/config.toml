@@ -1,0 +1,4 @@
+# Bounded uploads for the custom-data workspace (MB per file). Matches geopilot.workspace.MAX_UPLOAD_MB;
+# without this, Streamlit's default would buffer uploads of up to 200 MB before the parser could refuse them.
+[server]
+maxUploadSize = 5

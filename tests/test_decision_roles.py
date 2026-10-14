@@ -461,3 +461,18 @@ def test_unrepresentable_legacy_demand_is_a_structured_error(zone_a):
     with pytest.raises(DecisionInputError) as exc:
         plan_locations(zone_a, [entity])
     assert exc.value.code == "INVALID_DEMAND_WEIGHT"
+
+
+def test_generate_candidates_refuses_unrepresentable_steps(zone_a):
+    for step in (10 ** 400, -(10 ** 400)):
+        with pytest.raises(DecisionInputError) as exc:
+            generate_candidates(zone_a, step)
+        assert code_of(exc) == "INVALID_SCENARIO_CONFIG"
+    with pytest.raises(DecisionInputError) as exc:                      # subnormal: width / step is infinite
+        generate_candidates(zone_a, 5e-324)
+    assert code_of(exc) == "RESOURCE_LIMIT_EXCEEDED" and exc.value.context["quantity"] == "candidate grid cells"
+    with pytest.raises(DecisionInputError) as exc:
+        generate_candidates(zone_a, 500, limits={"max_grid_cells": 10})
+    assert code_of(exc) == "INVALID_SCENARIO_CONFIG"
+    assert generate_candidates(zone_a, 500) == generate_candidates(zone_a, 500.0)   # ordinary int steps still work
+    assert len(generate_candidates(zone_a, 10 ** 300)) <= 1             # huge but representable: one cell

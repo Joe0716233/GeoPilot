@@ -219,12 +219,23 @@ def generate_candidates(zone: Zone, step_m: float, *, limits: ResourceLimits = D
 
     The grid size is checked against ``limits.max_grid_cells`` before any cell is generated.
     """
-    if isinstance(step_m, bool) or not isinstance(step_m, (int, float)) or not isfinite(step_m) or step_m <= 0:
-        raise DecisionInputError("INVALID_SCENARIO_CONFIG", "grid step must be a finite number > 0")
+    if not isinstance(limits, ResourceLimits):
+        raise DecisionInputError("INVALID_SCENARIO_CONFIG", "limits must be a ResourceLimits")
+    try:  # a huge Python int is not representable as a float and must not overflow below
+        finite = isinstance(step_m, (int, float)) and not isinstance(step_m, bool) and isfinite(float(step_m))
+    except OverflowError:
+        finite = False
+    if not finite or step_m <= 0:
+        raise DecisionInputError("INVALID_SCENARIO_CONFIG", "grid step must be a finite, representable number > 0")
     local, polygon = _study_area(zone, limits)
     minx, miny, maxx, maxy = polygon.bounds
-    cols = int(floor((maxx - minx) / step_m)) + 1
-    rows = int(floor((maxy - miny) / step_m)) + 1
+    spans = ((maxx - minx) / step_m, (maxy - miny) / step_m)
+    if not all(isfinite(s) for s in spans):  # e.g. a subnormal step: the grid would be infinitely large
+        raise DecisionInputError("RESOURCE_LIMIT_EXCEEDED", f"grid step {step_m!r} m gives an unbounded number of "
+                                 "grid cells; increase grid_step_m", quantity="candidate grid cells",
+                                 amount=None, limit=limits.max_grid_cells)
+    cols = int(floor(spans[0])) + 1
+    rows = int(floor(spans[1])) + 1
     _bound("candidate grid cells", cols * rows, limits.max_grid_cells,
            "increase grid_step_m or use a smaller study area")
     inside = prep(polygon)

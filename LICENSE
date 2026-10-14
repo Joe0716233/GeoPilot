@@ -22,9 +22,13 @@ SOFTWARE.
 
 ---------------------------------------------------------------------------
 Scope: this MIT licence covers the GeoPilot source code, tests, scripts and original
-documentation, and the provenance metadata file examples/data/london/manifest.json
-(hashes, dates and counts only). The spatial dataset files under examples/data/
-(including the files generated from them by scripts/prepare_data.py) are NOT
-relicensed by it; they remain under the Open Government Licence v3.0 and Creative
-Commons Attribution terms, with the attribution and modification notices, described
-in DATA_SOURCES.md.
+documentation, and the provenance metadata files examples/data/london/manifest.json
+and examples/data/coverage/manifest.json (hashes, dates and counts only). The spatial
+dataset files under examples/data/ are NOT relicensed by it:
+- the files under examples/data/london/ (including the files generated from them by
+  scripts/prepare_data.py) remain under the Open Government Licence v3.0 and Creative
+  Commons Attribution terms;
+- examples/data/coverage/osm_facilities_southwark.json is a separate database of
+  OpenStreetMap data under the Open Database License (ODbL) 1.0,
+  https://opendatacommons.org/licenses/odbl/1-0/ (© OpenStreetMap contributors).
+The attribution and modification notices are described in DATA_SOURCES.md.
