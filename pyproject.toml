@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geopilot"
+version = "1.0.0"
+description = "Reproducible spatial data verification, entity resolution and site screening"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+dependencies = [
+  "pydantic>=2.9,<3",
+  "shapely>=2.0,<3",
+  "pyproj>=3.6,<4",
+  "rapidfuzz>=3.10,<4",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.40,<2", "plotly>=5,<7", "pandas>=2.2,<3"]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

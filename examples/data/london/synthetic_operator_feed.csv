@@ -1,0 +1,29 @@
+source_id,name,address,category,city,lon,lat,derived_from_gla_source_id,construction_note
+F001,Lancaster Gate,Lancaster Gate,existing_station,London,-0.180312,51.511590,9,"same name, ~8 m offset"
+F002,WARWICK AVENUE BY CLIFTON VILLAS,warwick avenue by clifton villas,existing_station,London,-0.183464,51.523153,10,"case change, ~15 m offset"
+F003,Wellington Place by Wellington Rd,Wellington Place by Wellington Rd,existing_station,London,-0.170034,51.531537,11,"abbreviated suffixes, ~20 m offset"
+F004,Synthetic Neighbour Cafe Car Park,,existing_station,London,-0.095784,51.516354,12,"different place ~10 m away, no address"
+F005,"3. Lidlington Place, loading bay on south side of carriageway outside Escape Sports Bar and Restaurant","3. Lidlington Place, loading bay on south side of carriageway outside Escape Sports Bar and Restaurant",existing_station,London,-0.140504,51.531607,17,same name but ~240 m away
+F006,294 Euston Road,294 Euston Road,existing_station,London,,,18,"same name, coordinate missing"
+F007,Charging point - Burdett Road south of Portia way,Burdett Road south of Portia way,existing_station,London,-0.031362,51.519922,19,"prefixed name, ~30 m offset"
+F008,Kensington Road - Palace Gate (Broadwalk),Kensington Road - Palace Gate (Broadwalk),existing_station,London,-0.183400,51.501599,20,"same name, ~8 m offset"
+F009,PRAH ROAD - ROCK STREET,prah road - rock street,existing_station,London,-0.105091,51.563636,21,"case change, ~15 m offset"
+F010,76-80 Tower Bridge Rd,76-80 Tower Bridge Rd,existing_station,London,-0.082506,51.496034,54,"abbreviated suffixes, ~20 m offset"
+F011,Synthetic Neighbour Cafe Car Park,,existing_station,London,-0.101609,51.506088,55,"different place ~10 m away, no address"
+F012,76 Southwark Street,76 Southwark Street,existing_station,London,-0.100120,51.505973,56,same name but ~240 m away
+F013,48 Southwark Street,48 Southwark Street,existing_station,London,,,57,"same name, coordinate missing"
+F014,Charging point - 49 Southwark Street,49 Southwark Street,existing_station,London,-0.093948,51.504960,58,"prefixed name, ~30 m offset"
+F015,"Great Dover Street northbound,","Great Dover Street northbound,",existing_station,London,-0.089476,51.497266,59,"same name, ~8 m offset"
+F016,53 STAMFORD HILL STH OF LAMPARD GROVE,53 stamford hill sth of lampard grove,existing_station,London,-0.073044,51.567212,70,"case change, ~15 m offset"
+F017,Southwark st east of Redcross way,Southwark st east of Redcross way,existing_station,London,-0.092225,51.504786,81,"abbreviated suffixes, ~20 m offset"
+F018,Synthetic Neighbour Cafe Car Park,,existing_station,London,-0.110635,51.561996,86,"different place ~10 m away, no address"
+F019,Outside Medina Court Seven Sisters Road,Outside Medina Court Seven Sisters Road,existing_station,London,-0.112935,51.559546,87,same name but ~240 m away
+F020,Opposite 167 - 171 Isledon Road,Opposite 167 - 171 Isledon Road,existing_station,London,,,88,"same name, coordinate missing"
+F021,Charging point - Outside 173 Kennington Lane,Outside 173 Kennington Lane,existing_station,London,-0.110323,51.488986,104,"prefixed name, ~30 m offset"
+F022,Opposite 195 South Lambeth Road,Opposite 195 South Lambeth Road,existing_station,London,-0.123365,51.476666,105,"same name, ~8 m offset"
+F023,OUTSIDE PENRYN HOUSE KENNINGTON PARK ROAD,outside penryn house kennington park road,existing_station,London,-0.105820,51.488655,106,"case change, ~15 m offset"
+F024,16 Gleneagle Rd,16 Gleneagle Rd,existing_station,London,-0.132136,51.426825,109,"abbreviated suffixes, ~20 m offset"
+F025,Synthetic Neighbour Cafe Car Park,,existing_station,London,-0.121256,51.471230,110,"different place ~10 m away, no address"
+F026,150 â 154 Stamford Hill,150 â 154 Stamford Hill,existing_station,London,-0.072834,51.574379,111,same name but ~240 m away
+F027,Hanover Gate Mansions - Park Road,Hanover Gate Mansions - Park Road,existing_station,London,,,114,"same name, coordinate missing"
+F028,Charging point - 156 Upper Clapton Road,156 Upper Clapton Road,existing_station,London,-0.060330,51.564742,118,"prefixed name, ~30 m offset"

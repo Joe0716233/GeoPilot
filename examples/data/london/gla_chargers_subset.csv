@@ -1,0 +1,43 @@
+source_id,name,address,category,lon,lat,city,district,site_id
+9,Lancaster Gate,Lancaster Gate,existing_station,-0.180296,51.511661,London,Westminster,169
+10,Warwick Avenue by Clifton Villas,Warwick Avenue by Clifton Villas,existing_station,-0.183562,51.523033,London,Westminster,174
+11,Wellington Place by Wellington Rd,Wellington Place by Wellington Rd,existing_station,-0.170067,51.531716,London,Westminster,175
+12,Noble Street by Oat Lane,Noble Street by Oat Lane,existing_station,-0.095835,51.516438,London,City of London,181
+17,"3. Lidlington Place, loading bay on south side of carriageway outside Escape Sports Bar and Restaurant","3. Lidlington Place, loading bay on south side of carriageway outside Escape Sports Bar and Restaurant",existing_station,-0.137596,51.532775,London,Camden,299
+18,294 Euston Road,294 Euston Road,existing_station,-0.138543,51.524733,London,Camden,300
+19,Burdett Road south of Portia way,Burdett Road south of Portia way,existing_station,-0.031152,51.519686,London,Tower Hamlets,395
+20,Kensington Road - Palace Gate (Broadwalk),Kensington Road - Palace Gate (Broadwalk),existing_station,-0.183328,51.501543,London,Westminster,431
+21,Prah Road - Rock Street,Prah Road - Rock Street,existing_station,-0.104878,51.563658,London,Islington,446
+54,76-80 Tower Bridge Road,76-80 Tower Bridge Road,existing_station,-0.082589,51.496206,London,Southwark,711
+55,103 Southwark Street,103 Southwark Street,existing_station,-0.101741,51.506124,London,Southwark,714
+56,76 Southwark Street,76 Southwark Street,existing_station,-0.096938,51.505130,London,Southwark,715
+57,48 Southwark Street,48 Southwark Street,existing_station,-0.094597,51.504862,London,Southwark,717
+58,49 Southwark Street,49 Southwark Street,existing_station,-0.093788,51.504710,London,Southwark,719
+59,"Great Dover Street northbound,","Great Dover Street northbound,",existing_station,-0.089368,51.497241,London,Southwark,729
+70,53 Stamford Hill sth of Lampard Grove,53 Stamford Hill sth of Lampard Grove,existing_station,-0.073016,51.567078,London,Hackney,852
+81,Southwark st east of Redcross way,Southwark st east of Redcross way,existing_station,-0.092493,51.504720,London,Southwark,904
+86,Outside 180 - 182 Seven Sisters Road,Outside 180 - 182 Seven Sisters Road,existing_station,-0.110713,51.562072,London,Islington,923
+87,Outside Medina Court Seven Sisters Road,Outside Medina Court Seven Sisters Road,existing_station,-0.111972,51.561618,London,Islington,925
+88,Opposite 167 - 171 Isledon Road,Opposite 167 - 171 Isledon Road,existing_station,-0.108495,51.561716,London,Islington,930
+104,Outside 173 Kennington Lane,Outside 173 Kennington Lane,existing_station,-0.110750,51.489028,London,Lambeth,1030
+105,Opposite 195 South Lambeth Road,Opposite 195 South Lambeth Road,existing_station,-0.123250,51.476667,London,Lambeth,1031
+106,Outside Penryn House Kennington Park Road,Outside Penryn House Kennington Park Road,existing_station,-0.105667,51.488750,London,Lambeth,1032
+109,16 Gleneagle Road,16 Gleneagle Road,existing_station,-0.131935,51.426953,London,Lambeth,1038
+110,Morant House Stockwell Road,Morant House Stockwell Road,existing_station,-0.121199,51.471147,London,Lambeth,1039
+111,150 â 154 Stamford Hill,150 â 154 Stamford Hill,existing_station,-0.072538,51.572230,London,Hackney,1044
+114,Hanover Gate Mansions - Park Road,Hanover Gate Mansions - Park Road,existing_station,-0.162415,51.526212,London,Westminster,1048
+118,156 Upper Clapton Road,156 Upper Clapton Road,existing_station,-0.059948,51.564615,London,Hackney,1070
+119,Outside 2-4 Telford Avenue,Outside 2-4 Telford Avenue,existing_station,-0.124887,51.442172,London,Lambeth,1081
+120,Hepworth Road at junction with Streatham High Road,Hepworth Road at junction with Streatham High Road,existing_station,-0.125300,51.415925,London,Lambeth,1084
+127,"OUTSIDE 64 SOUTHWARK STREET, LONDON, SE1","OUTSIDE 64 SOUTHWARK STREET, LONDON, SE1",existing_station,-0.096245,51.504978,London,Southwark,1135
+132,Qpark: Pimlico,Qpark: Pimlico,existing_station,-0.145654,51.489703,London,Westminster,462
+133,Qpark: Knightsbridge,Qpark: Knightsbridge,existing_station,-0.157017,51.500165,London,Westminster,464
+134,Qpark: Harley Street,Qpark: Harley Street,existing_station,-0.145639,51.517998,London,Westminster,467
+135,Qpark: Oxford Street,Qpark: Oxford Street,existing_station,-0.145983,51.516281,London,Westminster,468
+136,Qpark: St Johns Wood,Qpark: St Johns Wood,existing_station,-0.172449,51.534358,London,Westminster,469
+137,Qpark: Tower Bridge,Qpark: Tower Bridge,existing_station,-0.073581,51.502605,London,Southwark,470
+138,Qpark: Chinatown,Qpark: Chinatown,existing_station,-0.129522,51.512371,London,Westminster,473
+145,Shell Holloway,Shell Holloway,existing_station,-0.108744,51.550245,London,Islington,492
+152,Shell Holloway High Street,Shell Holloway High Street,existing_station,-0.108674,51.550253,London,Islington,1137
+155,Shell Old Street,Shell Old Street,existing_station,-0.091169,51.525316,London,Islington,1140
+156,Shell Whitechapel Road,Shell Whitechapel Road,existing_station,-0.067563,51.518018,London,Tower Hamlets,1141

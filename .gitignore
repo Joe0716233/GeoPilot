@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+*.log
+/out/
+/outputs/
+# Optional `prepare_data.py --download raw` writes publisher files here; never commit them.
+/raw/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db

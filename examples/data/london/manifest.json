@@ -1,0 +1,51 @@
+{
+  "generated_by": "scripts/prepare_data.py",
+  "note": "Real inputs are publisher files as retrieved on the stated date; later downloads may differ. Only the listed output files are hashed.",
+  "outputs": {
+    "boroughs_subset.geojson": {
+      "bytes": 155649,
+      "sha256": "a55f0a4137e95380fcfeec856d692f7d6aa2a326c92e05902fbbde16cf098264"
+    },
+    "gla_chargers_subset.csv": {
+      "bytes": 5106,
+      "sha256": "e6049f9af006c629c62c03d1bdb0e9ae10fcc276cbf88a3db9e878a9433227ca"
+    },
+    "synthetic_boundary_probes.csv": {
+      "bytes": 6710,
+      "sha256": "ed266995dbb31aa99916d5b96d0172ff12d0dd33506aa825af692c460bffbfcc"
+    },
+    "synthetic_demand.csv": {
+      "bytes": 15669,
+      "sha256": "065d4d9771f5e46b8324107502edc51f9d7e74a12b19f1d6aae4b0c720f4e0d1"
+    },
+    "synthetic_operator_feed.csv": {
+      "bytes": 4095,
+      "sha256": "6621b75b0c7b4738b1b14850fd578fbe2887b7bdc35fbe76172c14b943c2e145"
+    }
+  },
+  "real_inputs": {
+    "boroughs": {
+      "licence": "OGL v3.0",
+      "publisher": "Greater London Authority / Ordnance Survey",
+      "retrieved_at": "2026-09-27",
+      "source_sha256": "126dd549bf7fa94d6025b8b1721717bb8ecb362759e54931a6c0830bdc00ac0c"
+    },
+    "chargers": {
+      "licence": "Creative Commons Attribution (version not stated by publisher)",
+      "max_lonlat_vs_bng_disagreement_m": 0.003,
+      "publisher": "Greater London Authority",
+      "retrieved_at": "2026-09-27",
+      "source_record_count": 156,
+      "source_sha256": "0ba090eb904823279414b36d66fdfb7f2067fa45ed84dbe4e11c6867845680b1"
+    }
+  },
+  "record_counts": {
+    "boroughs": 9,
+    "gla_chargers_subset": 42,
+    "synthetic_boundary_probes": 74,
+    "synthetic_demand": 227,
+    "synthetic_operator_feed": 28
+  },
+  "seed": 20261014,
+  "study_zone": "Southwark"
+}
