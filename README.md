@@ -13,6 +13,13 @@ duplicated sites, ad-hoc coordinate systems and opaque "best site" scores. GeoPi
 projected metric distances, named reason codes, conservative statuses, and limitation statements next to
 every result.
 
+## Live Demo
+
+**<https://geopilot-gis.streamlit.app/>** – the integrated app hosted on Streamlit Community Cloud, running on
+the bundled sample data. The page opens in Simplified Chinese; use the sidebar language selector
+(语言 / Language) to switch to English. It is a demonstration on historic open data and synthetic inputs, not a
+statement about current London charging provision. The app may take a moment to wake up if it has been idle.
+
 > **Scope.** v1.0 is a deterministic, rule-based library with a demo app. It contains **no LLM or autonomous
 > agent**, performs **no live data access**, and makes **no claim of accuracy, current charger availability or
 > real-site feasibility**. The bundled London data is partly historic open data and partly synthetic; see
