@@ -1,0 +1,11 @@
+asset_ref,east_custom,north_custom,site_label,kind_raw,need_units,claimed_area
+orig-A,-0.095,51.505,inside west,toilets,10,
+orig-B,-0.1,51.51,exact boundary,toilets,20,
+orig-C,-0.085,51.51,overlap,toilets,30,
+orig-D,-0.04,51.51,outside,toilets,40,
+orig-E,,,no coordinate,toilets,50,
+orig-F,-0.055,51.505,multipolygon island,toilets,60,
+bad-xy,abc,51.51,invalid numeric,toilets,1,
+dup,-0.095,51.505,duplicate1,toilets,1,
+dup,-0.095,51.505,duplicate2,toilets,1,
+,-0.095,51.505,missing id,toilets,1,

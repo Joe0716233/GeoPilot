@@ -49,15 +49,16 @@ def independent_grid(zone) -> list[dict]:
     return cells
 
 
-def audit(data, key: str, category: str) -> tuple[dict, dict]:
+def audit(data, key: str, category: str, *, conservative_access: bool = False) -> tuple[dict, dict]:
     # Read eligibility directly from the unchanged source tags, not the filter helper.
     facilities = [
         e for e in data.facilities
         if e.category == category and (
-            category != "toilets" or e.properties["raw_tags"].get("access") in {"yes", "permissive"}
+            (category != "toilets" and not conservative_access)
+            or e.properties["raw_tags"].get("access") in {"yes", "permissive"}
         )
     ]
-    result = run_coverage_example(key, inputs=data)
+    result = run_coverage_example(key, inputs=data, conservative_access=conservative_access)
     for parameter, expected in {
         "grid_step_m": 500, "service_radius_m": 500, "target_count": 3,
         "min_existing_distance_m": 250, "min_new_site_distance_m": 600,
@@ -151,7 +152,17 @@ def audit(data, key: str, category: str) -> tuple[dict, dict]:
 
 def main() -> None:
     data = load_coverage_inputs()
-    charging, _ = audit(data, "ev_charging", "charging_station")
+    charging, default_ev = audit(data, "ev_charging", "charging_station")
+    strict_charging, strict_ev = audit(data, "ev_charging", "charging_station", conservative_access=True)
+    ev_tags = Counter(e.properties["raw_tags"].get("access", "UNKNOWN")
+                      for e in data.facilities if e.category == "charging_station")
+    assert ev_tags == {"yes": 5, "no": 2, "customers": 1, "taxi": 1, "UNKNOWN": 54}
+    assert default_ev["eligibility"] is None and charging["facility_count"] == 63
+    assert strict_charging["facility_count"] == 5
+    assert strict_ev["eligibility"]["counts"]["EXCLUDED_RESTRICTED"] == 4
+    assert strict_ev["eligibility"]["counts"]["EXCLUDED_UNKNOWN"] == 54
+    assert default_ev["access_summary"]["known_restricted"] == 4
+    assert default_ev["access_summary"]["unknown"] == 54
     toilets, result = audit(data, "public_toilets", "toilets")
     counts = Counter(
         e.properties["raw_tags"].get("access", "UNKNOWN")
@@ -164,7 +175,9 @@ def main() -> None:
     assert result["eligibility"]["counts"]["EXCLUDED_UNKNOWN"] == 54
     assert result["eligibility"]["counts"]["EXCLUDED_RESTRICTED"] == 18
     print(json.dumps({
-        "charging": charging, "toilets": toilets,
+        "charging": charging, "charging_conservative": strict_charging, "toilets": toilets,
+        "charging_access": {"all": 63, "yes_tags": 5, "restricted": 4, "unknown": 54,
+                            "current_public_availability": "NOT_ESTABLISHED"},
         "toilet_access": {"all": 100, "eligible": 28, "restricted": 18, "unknown": 54,
                           "hours_fee_wheelchair": "NOT_ESTABLISHED"},
     }, indent=2))

@@ -1,7 +1,9 @@
 """Custom-data workspace: uploaded bytes -> validated entities and zones -> claim-free zone assignment.
 
-Everything here works on raw bytes held in memory. Nothing reads a local path, writes to disk,
-caches, or records an uploaded filename. The steps are:
+Everything here works on raw bytes passed in by the caller (in the app, bytes uploaded to the
+Streamlit server and held in its memory for the session). These functions never read a local path,
+write uploaded content to disk, cache it, or record an uploaded filename. What the hosting
+environment does (server logs, backups, network) is outside their control. The steps are:
 
 1. ``parse_upload(data, kind)``: size-bounded UTF-8 (BOM allowed) CSV or GeoJSON parsing into a
    ``RawTable``. File-level problems (blank or duplicate CSV headers, broken JSON, wrong GeoJSON

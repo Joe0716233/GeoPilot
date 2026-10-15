@@ -41,7 +41,9 @@ Caveats:
 * **Toilet access:** the toilet example treats `access=yes`/`permissive` as eligible (28). It excludes
   `customers`/`permit`/`private` (18). The 54 records with no `access` tag are excluded unless the user opts
   in.
-* **Charger access:** the charging example uses all 63 records as tagged and does not assert public
+* **Charger access:** the charging example by default uses all 63 records as tagged. Their access tags are
+  5 `yes`, 2 `no`, 1 `customers`, 1 `taxi` and 54 missing. An optional conservative filter keeps only the
+  5 `yes`/`permissive` records; the raw file is unchanged either way. The example does not assert public
   availability.
 
 ## Attribution (reproduce with any redistribution of the data or screenshots)
@@ -106,3 +108,9 @@ EPSG:4326 with `name` and `gss_code` fields and the charger GeoPackage table `Ra
 `longtitude` is kept). Output is deterministic: identical inputs give byte-identical files, and the manifest
 hashes only the five generated data files. The download URLs are not exercised by the automated tests, which
 run offline.
+
+## Synthetic acceptance fixtures
+
+`examples/data/acceptance/` contains original, invented records and simple geometries for the PR #1
+manual acceptance checklist. They are test fixtures under the MIT licence, not an OSM or GLA extract,
+and make no claim about actual facilities.

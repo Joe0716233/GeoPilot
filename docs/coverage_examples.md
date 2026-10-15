@@ -8,16 +8,26 @@ same algorithm. The code has no facility-specific branch.
 from geopilot.coverage_examples import load_coverage_inputs, run_coverage_example
 
 inputs = load_coverage_inputs()              # bundled files; the OSM file is checked against its SHA-256
-ev = run_coverage_example("ev_charging", inputs=inputs)
+ev = run_coverage_example("ev_charging", inputs=inputs)                            # all 63, as tagged
+ev_strict = run_coverage_example("ev_charging", inputs=inputs, conservative_access=True)
 wc = run_coverage_example("public_toilets", inputs=inputs, service_radius_m=500, include_unknown_access=False)
 ```
 
-| | `ev_charging` | `public_toilets` |
-|---|---|---|
-| Facilities | 63 OSM `charging_station`, all used as tagged | 100 OSM `toilets`; 28 eligible |
-| Eligibility | none | `EligibilityPolicy("access", {yes, permissive}, {customers, permit, private, no})` on `raw_tags`; unknown excluded unless opted in (warning) |
-| Selected sites (defaults) | C074, C051, C090 | C074, C051, C090 |
-| Demand weight covered (existing + new = final) | 14350 + 7460 = 21810 of 38160 | 6010 + 7180 = 13190 of 38160 |
+| | `ev_charging` (default) | `ev_charging`, `conservative_access=True` | `public_toilets` |
+|---|---|---|---|
+| Facilities | 63 OSM `charging_station`, all used as tagged (not a statement of public availability) | 5 with `access=yes`/`permissive` | 100 OSM `toilets`; 28 eligible |
+| Eligibility | none (`result["eligibility"] is None`) | `EV_CONSERVATIVE_ACCESS_POLICY`: eligible {yes, permissive}; restricted {no, customers, taxi, private, permit} | `TOILET_ACCESS_POLICY`: eligible {yes, permissive}; restricted {customers, permit, private, no} |
+| Unknown access | used | excluded unless `include_unknown_access=True` (warning) | excluded unless `include_unknown_access=True` (warning) |
+| Selected sites (defaults) | C074, C051, C090 | C074, C051, C090 | C074, C051, C090 |
+| Demand weight covered (existing + new = final) | 14350 + 7460 = 21810 of 38160 | 3150 + 8470 = 11620 of 38160 | 6010 + 7180 = 13190 of 38160 |
+
+Every result also has an `access_summary`, whether or not a filter was applied. It contains the raw
+`raw_tags.access` value counts, plus the number of records that are confirmed (`yes`/`permissive`), that
+have a known restriction, that have another value, or that have no tag. For the chargers this is 5
+confirmed, 4 known restricted (2 `no`, 1 `customers`, 1 `taxi`), 0 other and 54 unknown. The summary only
+describes the saved OSM tags; it does not establish public availability. Neither filter changes the raw
+records or their provenance. `conservative_access` has no effect on the toilet example, whose access
+policy is always applied.
 
 ## Shared inputs and defaults
 
@@ -55,3 +65,6 @@ algorithm.
   wheelchair access are not verified.
 - **Licence:** the OSM data is a separate ODbL 1.0 database (© OpenStreetMap contributors); see
   `DATA_SOURCES.md` and `examples/data/coverage/README.md`.
+
+In the app, switching between examples resets access opt-ins to the documented defaults.
+Choose the conservative filter or unknown-access opt-in again after a scenario switch.

@@ -276,6 +276,72 @@ def test_caller_limits_reach_coverage_and_eligibility(inputs):
     assert exc.value.code == "RESOURCE_LIMIT_EXCEEDED" and exc.value.context["quantity"] == "input entities"
 
 
+# --- EV access transparency and optional conservative filter ---
+
+def test_ev_default_is_unchanged_and_reports_raw_access_counts(results):
+    ev = results["ev_charging"]
+    assert ev["eligibility"] is None and ev["example"]["access_filter"] == "none"
+    assert (ev["existing_facility_count"], ev["final_total_demand_weight_covered"]) == (63, 21810)
+    summary = ev["access_summary"]
+    assert (summary["records"], summary["confirmed"], summary["known_restricted"], summary["other_values"],
+            summary["unknown"]) == (63, 5, 4, 0, 54)
+    assert summary["values"] == {"(missing)": 54, "customers": 1, "no": 2, "taxi": 1, "yes": 5}
+    assert summary["filter_applied"] is False and "do not establish current public availability" in summary["note"]
+    assert "not a statement about public availability" in " ".join(ev["example"]["notes"])
+    assert ce.EXAMPLES["ev_charging"].eligibility is None                         # contract kept
+    assert ce.CoverageExample("k", "t", "t", "c", None, ()).optional_eligibility is None   # old 6-field form works
+
+
+def test_ev_conservative_access_filter(inputs):
+    before = [e.model_dump() for e in inputs.facilities]
+    strict = ce.run_coverage_example("ev_charging", inputs=inputs, conservative_access=True)
+    assert [e.model_dump() for e in inputs.facilities] == before                 # raw records untouched
+    assert hashlib.sha256(OSM.read_bytes()).hexdigest() == \
+        "c1ce55576fd2afef94b75633f1577ab8f60cd18ddf4e7dbf1ab0881bd443e482"
+    assert strict["example"]["access_filter"] == "conservative" and strict["access_summary"]["filter_applied"]
+    assert strict["eligibility"]["counts"] == {"records": 63, "ELIGIBLE": 5, "EXCLUDED_RESTRICTED": 4,
+                                               "EXCLUDED_OTHER_VALUE": 0, "EXCLUDED_UNKNOWN": 54,
+                                               "INCLUDED_UNKNOWN": 0}
+    assert strict["eligibility"]["policy"]["restricted"] == ["customers", "no", "permit", "private", "taxi"]
+    audit = strict["eligibility"]["audit"]
+    assert sorted(a["value"] for a in audit if a["decision"] == "EXCLUDED_RESTRICTED") == ["customers", "no", "no",
+                                                                                           "taxi"]
+    assert all(a["category"] == "charging_station" and a["source_id"].startswith(("node/", "way/")) for a in audit)
+    used = [row for row in strict["inputs"] if row["role"] == "existing_facility"]
+    assert len(used) == strict["existing_facility_count"] == 5
+    assert all(row["properties"]["raw_tags"]["access"] in {"yes", "permissive"} for row in used)
+    assert all(row["provenance"][0]["license_note"] == "ODbL 1.0; © OpenStreetMap contributors" for row in used)
+    # Coverage of the 5 kept facilities, rechecked with geodesic distances.
+    demand = [e for e in inputs.demand_context
+              if e.category == "population" and inputs.zone.shape.covers(Point(e.lon, e.lat))]
+    facilities = [(row["lon"], row["lat"]) for row in used]
+    base = sum(float(e.properties["population"]) for e in demand
+               if any(metres((e.lon, e.lat), f) <= 500 for f in facilities))
+    assert base == strict["existing_demand_weight_covered"] == 3150
+    assert strict["final_total_demand_weight_covered"] == 11620
+    assert ce.run_coverage_example("ev_charging", inputs=inputs, conservative_access=True) == strict   # deterministic
+
+
+def test_ev_conservative_filter_unknown_opt_in_and_unlisted_values(inputs):
+    opted = ce.run_coverage_example("ev_charging", inputs=inputs, conservative_access=True, include_unknown_access=True)
+    assert opted["existing_facility_count"] == 59 and opted["eligibility"]["counts"]["INCLUDED_UNKNOWN"] == 54
+    assert opted["eligibility"]["warnings"]
+    # An access value that is neither confirmed nor a known restriction is still excluded.
+    charger = next(e for e in inputs.facilities if e.category == "charging_station")
+    odd = charger.model_copy(update={"source_id": "node/test", "properties": {"raw_tags": {"access": "destination"}}})
+    checked = apply_eligibility([odd], ce.EV_CONSERVATIVE_ACCESS_POLICY)
+    assert checked.kept == () and checked.audit[0]["decision"] == "EXCLUDED_OTHER_VALUE"
+
+
+def test_conservative_access_flag_is_validated_and_does_not_change_toilets(inputs, results):
+    with pytest.raises(DecisionInputError) as exc:
+        ce.run_coverage_example("ev_charging", inputs=inputs, conservative_access="yes")
+    assert exc.value.code == "INVALID_SCENARIO_CONFIG"
+    toilets = ce.run_coverage_example("public_toilets", inputs=inputs, conservative_access=True)
+    assert to_json(toilets) == to_json(results["public_toilets"])
+    assert toilets["access_summary"]["confirmed"] == 28 and toilets["access_summary"]["known_restricted"] == 18
+
+
 # --- generic eligibility helper ---
 
 def test_eligibility_policy_is_generic_and_validated(inputs):

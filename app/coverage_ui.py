@@ -1,7 +1,8 @@
 """Coverage screening pages: built-in EV-charging / public-toilet examples and coverage on uploaded data.
 
 Both call ``geopilot.decision.plan_coverage`` (the examples through ``run_coverage_example``) with the
-same weighted-coverage method. Only the bundled, read-only example inputs are cached; uploads never are.
+same weighted-coverage method. Only the bundled, read-only example inputs are cached (``st.cache_resource``);
+uploaded content is never put in a cache.
 Uploaded-data results live in ``st.session_state`` under a fingerprint of every input and parameter.
 """
 
@@ -29,8 +30,9 @@ ROLE_LABELS = {None: ("（不映射）", "(not mapped)"), "existing_facility": (
                "weighted_demand": ("加权需求", "weighted demand"), "context": ("上下文", "context"),
                "ignore": ("忽略（审计中保留）", "ignore (kept in audit)")}
 EXAMPLE_NOTES_ZH = {
-    "ev_charging": ["使用全部 63 条已保存的 OSM 充电站记录（按原标签）；access 标签（2 个 no、1 个 customers、1 个 taxi）在本示例中"
-                    "不做筛选，也不声称当前可公开使用。"],
+    "ev_charging": ["默认按原标签使用全部 63 条已保存的 OSM 充电站记录；其 access 标签（5 个 yes、2 个 no、1 个 customers、"
+                    "1 个 taxi、54 个缺失）不做筛选，因此默认结果并不说明这些设施对公众开放。可选的保守 access 筛选只保留 "
+                    "access=yes/permissive。"],
     "public_toilets": ["仅 access=yes / permissive 的厕所计为可用（100 个中 28 个）；customers/permit/private（18 个）被排除；"
                        "54 个没有 access 标签的默认排除，除非你明确选择纳入。", "未核验开放时间、收费、是否室内及无障碍条件。"]}
 COMMON_NOTES_ZH = ["需求权重为合成需求单位（内置合成“人口”点），不是观测到的充电或如厕需求。",
@@ -195,10 +197,17 @@ def _example_inputs():
     return load_coverage_inputs()     # bundled, read-only example files only
 
 
+def _reset_example_access() -> None:
+    # Conditional widgets can otherwise restore a previous server value while displaying their default.
+    # Each scenario switch starts from its documented access assumptions; opt-ins must be explicit again.
+    st.session_state["ce_conservative_access"] = False
+    st.session_state["ce_include_unknown"] = False
+
+
 def render_examples(t) -> None:
     st.title(t("GeoPilot · 覆盖分析示例", "GeoPilot · coverage examples"))
     key = st.radio(t("示例", "Example"), list(EXAMPLES), key="ce_example", horizontal=True,
-                   format_func=lambda k: t(EXAMPLES[k].title_zh, EXAMPLES[k].title_en))
+                   format_func=lambda k: t(EXAMPLES[k].title_zh, EXAMPLES[k].title_en), on_change=_reset_example_access)
     example = EXAMPLES[key]
     notes = t(EXAMPLE_NOTES_ZH[key] + COMMON_NOTES_ZH, [*example.notes, *COMMON_NOTES])
     st.warning("\n".join(f"* {note}" for note in notes))
@@ -212,8 +221,14 @@ def render_examples(t) -> None:
     for col, metric in zip(cols[1:], ("residential", "commercial", "transit")):
         weights[metric] = col.number_input(t(f"权重：{metric}", f"Weight: {metric}"), 0.0, 1.0,
                                            DEFAULT_WEIGHTS[metric], 0.05, key=f"ce_w_{metric}")
+    conservative = False
+    if example.optional_eligibility is not None:
+        conservative = st.checkbox(
+            t("保守的 access 筛选：仅计入 access=yes/permissive；排除已知受限（no/customers/taxi/private/permit）及缺失标签",
+              "Conservative access filter: count only access=yes/permissive; exclude known restrictions "
+              "(no/customers/taxi/private/permit) and missing tags"), value=False, key="ce_conservative_access")
     include_unknown = False
-    if example.eligibility is not None:
+    if example.eligibility is not None or conservative:
         include_unknown = st.checkbox(t("纳入 access 标签缺失的设施（不推荐）", "Include facilities with no access tag "
                                         "(not recommended)"), value=False, key="ce_include_unknown")
         if include_unknown:
@@ -223,10 +238,11 @@ def render_examples(t) -> None:
     try:
         inputs = _example_inputs()
         result = run_coverage_example(key, inputs=inputs, include_unknown_access=include_unknown, weights=weights,
-                                      limits=APP_COVERAGE_LIMITS, **params)
+                                      conservative_access=conservative, limits=APP_COVERAGE_LIMITS, **params)
     except (ValueError, FileNotFoundError) as exc:
         _show_error(t, exc)
         return
+    summary = result["access_summary"]
     if result["eligibility"]:
         c = result["eligibility"]["counts"]
         cols = st.columns(4)
@@ -234,6 +250,20 @@ def render_examples(t) -> None:
         cols[1].metric(t("可用（计入）", "Eligible (used)"), c["ELIGIBLE"] + c["INCLUDED_UNKNOWN"])
         cols[2].metric(t("受限（排除）", "Restricted (excluded)"), c["EXCLUDED_RESTRICTED"] + c["EXCLUDED_OTHER_VALUE"])
         cols[3].metric(t("access 未知", "Access unknown"), c["EXCLUDED_UNKNOWN"] + c["INCLUDED_UNKNOWN"])
+    else:
+        st.info(t(f"默认按 OSM 标签原样使用全部 {summary['records']} 条记录；这不表示它们对公众开放。"
+                  "可勾选上方的保守 access 筛选。",
+                  f"By default all {summary['records']} records are used as tagged; this does not mean they are "
+                  "publicly available. Tick the conservative access filter above to keep only confirmed access."))
+        cols = st.columns(4)
+        cols[0].metric(t("设施记录（全部计入）", "Facility records (all used)"), summary["records"])
+        cols[1].metric(t("access=yes/permissive", "Access yes/permissive"), summary["confirmed"])
+        cols[2].metric(t("已知受限 access", "Known restricted access"), summary["known_restricted"])
+        cols[3].metric(t("access 缺失/未知", "Access missing/unknown"), summary["unknown"])
+    st.caption(t("OSM access 标签计数：", "OSM access tag counts: ")
+               + ", ".join(f"{t('缺失', 'missing') if value == '(missing)' else value} {count}"
+                           for value, count in summary["values"].items())
+               + t("。仅为已保存的 OSM 标签，不证明当前可公开使用。", f". {summary['note']}"))
     render_coverage_result(t, result, inputs.zone, "ce")
 
 

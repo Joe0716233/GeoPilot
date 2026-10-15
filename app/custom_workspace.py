@@ -1,8 +1,11 @@
 """Custom-data workspace page: upload points and boundaries, map fields, confirm CRSs, assign zones.
 
-Uploads are read as bytes from ``st.file_uploader`` only. Nothing is written to disk or cached,
-and filenames are not recorded. The result lives in this session's ``st.session_state`` under the
-fingerprint of the inputs that produced it, and is discarded as soon as any input changes.
+Uploads are read as bytes from ``st.file_uploader`` only. The content passes through the Streamlit
+server and is processed in that server's memory for this session. The application does not
+intentionally write uploaded content to disk or put it in a shared cache, and it does not record
+filenames. The hosting environment (server logs, backups, network) is outside the application's
+control. The result lives in this session's ``st.session_state`` under the fingerprint of the inputs
+that produced it, and is discarded as soon as any input changes.
 """
 
 from __future__ import annotations
@@ -249,11 +252,16 @@ def _results_section(t, points, zones) -> None:
 
 def render(t) -> None:
     st.title(t("GeoPilot · 自定义数据工作区", "GeoPilot · custom data workspace"))
-    st.info(t("上传的文件只在本次浏览器会话的内存中处理：不写入磁盘、不缓存、不记录文件名。"
+    st.info(t("上传的文件会经过运行本应用的 Streamlit 服务器，并在服务器上本会话的内存中处理（每个文件上限 5 MB）。"
+              "本应用不会主动将上传内容写入磁盘或共享缓存，也不记录文件名；结果只保存在本会话中。"
+              "托管环境（服务器日志、备份、网络）不在本应用的控制范围内。"
               "请为每个文件明确选择字段并确认其坐标参考系；不支持 GCJ-02 / BD-09。",
-              "Uploaded files are processed only in this browser session's memory. They are not written to disk or "
-              "cached, and filenames are not recorded. Map each file's fields and confirm its coordinate reference "
-              "system explicitly; GCJ-02 and BD-09 are not supported."))
+              "Uploaded files pass through the Streamlit server running this app and are processed in that server's "
+              "memory for this session (5 MB per file). The app does not intentionally write uploaded content to "
+              "disk or to a shared cache, and does not record filenames; results are kept only in this session. "
+              "The hosting environment (server logs, backups, network) is outside the app's control. "
+              "Map each file's fields and confirm its coordinate reference system explicitly; GCJ-02 and BD-09 are "
+              "not supported."))
     points = _points_section(t)
     st.divider()
     zones = _zones_section(t)

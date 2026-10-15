@@ -153,8 +153,11 @@ page.
 
 Constraints:
 
-* **Bytes only.** Uploads are processed only from the uploaded bytes, in session memory. Nothing is written
-  to disk or cached, and filenames are not recorded; inputs are identified by SHA-256.
+* **Where uploads go.** Uploaded content passes through the Streamlit server running the app and is processed
+  in that server's memory for your session; the app works only from those bytes and never reads a local path.
+  GeoPilot does not intentionally write uploaded content to disk or to a shared cache, and does not record
+  filenames; inputs are identified by SHA-256. The hosting environment (server logs, backups, network) is
+  outside GeoPilot's control, so don't upload data you are not allowed to send to that server.
 * **Size limits.** Each file is limited to 5 MB and 20,000 records. Boundary layers are limited to
   2,000 zones, 200,000 vertices per zone and 500,000 vertices in total. Point × zone pairs are limited to
   2 million. Each limit is checked before the work it guards.
@@ -171,7 +174,7 @@ Constraints:
   separately.
 * **Boundary layer.** Any unusable boundary feature refuses the layer, so a zone is never silently missing.
 * **Stale results.** Changing a file, mapping, CRS or source label discards the previous result and its
-  downloads. Results live only in the current browser session.
+  downloads. Results are kept only in your session's state on the server, not shared with other sessions.
 * **Upload cap.** Each upload is capped at 5 MB in three places: the uploader widget, `.streamlit/config.toml`
   (`server.maxUploadSize`) and the parser. This prevents the server from buffering Streamlit's default of
   200 MB.
@@ -202,7 +205,8 @@ minimum distance to existing facilities 250 m, minimum distance between new site
 
 | Example | Facilities used | Weighted demand coverage (defaults) |
 | --- | --- | --- |
-| EV charging stations | All 63 saved OSM `charging_station` records, as tagged | 37.6 % existing → 57.2 % with 3 new sites |
+| EV charging stations (default) | All 63 saved OSM `charging_station` records, as tagged. This is not a statement of public availability: 5 are tagged `access=yes`, 4 carry known restrictions (2 `no`, 1 `customers`, 1 `taxi`) and 54 have no access tag. The app shows these counts | 37.6 % existing → 57.2 % with 3 new sites |
+| EV charging stations (optional conservative access filter) | The 5 with `access=yes`/`permissive`. Known restrictions (`no`/`customers`/`taxi`/`private`/`permit`) are excluded, and so are the 54 without an access tag unless you opt in with a warning | 8.3 % existing → 30.5 % with 3 new sites |
 | Public toilets | 28 of 100 OSM toilets with `access=yes`/`permissive`. 18 restricted and 54 with unknown access are excluded and audited; unknown access can be opted in with a warning | 15.7 % existing → 34.6 % with 3 new sites |
 
 Caveats:
@@ -245,9 +249,12 @@ It recomputes the following without using the screening internals or GeoPilot's 
 * the candidate grid, using direct PyProj transformations
 * coverage, scores, distance constraints and the greedy selection, using WGS 84 geodesic distances
 * source preservation
-* the toilet access eligibility
+* the charger and toilet access-tag counts and conservative eligibility
 
 It checks arithmetic and provenance, not real facility availability or observed demand.
+
+For the disclosed browser-upload gap, synthetic input files and exact manual expected results, see
+[PR #1 acceptance and deployment handoff](docs/acceptance_pr1.md).
 
 ## Interpreting spatial outputs
 

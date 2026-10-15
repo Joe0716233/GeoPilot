@@ -61,6 +61,52 @@ def test_unknown_access_opt_in_warns_and_changes_the_facility_set():
                for e in at.expander)
 
 
+def test_ev_default_shows_known_restricted_and_unknown_access():
+    at = examples()
+    m = metrics(at)
+    assert (m["Facility records (all used)"], m["Access yes/permissive"], m["Known restricted access"],
+            m["Access missing/unknown"]) == ("63", "5", "4", "54")
+    assert (m["Participating facilities"], m["Total covered"]) == ("63", "57.2 %")         # default unchanged
+    assert any("does not mean they are publicly available" in i.value for i in at.info)
+    assert any("no 2" in c.value and "missing 54" in c.value and "taxi 1" in c.value for c in at.caption)
+    assert at.checkbox(key="ce_conservative_access").value is False
+    assert not [c for c in at.checkbox if c.key == "ce_include_unknown"]               # only with a filter on
+
+
+def test_ev_conservative_access_filter_in_the_ui():
+    at = examples()
+    at.checkbox(key="ce_conservative_access").check().run()
+    m = metrics(at)
+    assert not at.exception and not at.error
+    assert (m["Facility records"], m["Eligible (used)"], m["Restricted (excluded)"], m["Access unknown"]) == (
+        "63", "5", "4", "54")
+    assert (m["Participating facilities"], m["Total covered"]) == ("5", "30.5 %")
+    assert m["Excluded or ignored records (all stages)"] == "58"
+    at.checkbox(key="ce_include_unknown").check().run()
+    assert metrics(at)["Participating facilities"] == "59" and any("unknown access" in w.value for w in at.warning)
+
+
+def test_ev_access_counts_in_chinese():
+    at = examples("zh")
+    m = metrics(at)
+    assert (m["已知受限 access"], m["access 缺失/未知"], m["access=yes/permissive"]) == ("4", "54", "5")
+    assert any("不表示它们对公众开放" in i.value for i in at.info)
+    assert "保守的 access 筛选" in at.checkbox(key="ce_conservative_access").label
+    at.checkbox(key="ce_conservative_access").check().run()
+    assert metrics(at)["参与的现有设施"] == "5"
+
+
+@pytest.mark.parametrize("lang, present, absent", [
+    ("en", ["pass through the Streamlit server", "does not intentionally write", "outside the app's control"],
+     ["only in this browser session's memory", "not written to disk"]),
+    ("zh", ["Streamlit 服务器", "不会主动将上传内容写入磁盘", "不在本应用的控制范围内"], ["只在本次浏览器会话的内存中处理"]),
+])
+def test_upload_privacy_wording_is_accurate(lang, present, absent):
+    at = app(lang)
+    text = " ".join(i.value for i in at.info)
+    assert all(p in text for p in present) and not any(a in text for a in absent)
+
+
 def test_excluded_count_includes_eligibility_exclusions():
     at = examples()
     assert metrics(at)["Excluded or ignored records (all stages)"] == "0"
