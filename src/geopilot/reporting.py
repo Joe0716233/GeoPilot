@@ -58,6 +58,23 @@ def tabular_views(module: str, result: dict) -> dict[str, list[dict]]:
                     **{f"metric_{k}": v for k, v in c["metrics"].items()}}
         return {"decision_selected": [site(c) for c in result["selected"]],
                 "decision_candidates": [site(c) for c in result["candidates"]]}
+    if module == "coverage":  # plan_coverage output (optionally with an "eligibility" audit)
+        ranks = {c["id"]: c["rank"] for c in result["selected"]}
+
+        def coverage_site(c: dict) -> dict:
+            return {"id": c["id"], "selected_rank": ranks.get(c["id"]), "lon": round(c["lon"], 6),
+                    "lat": round(c["lat"], 6), "score": c["score"], "nearest_existing_m": c["nearest_existing_m"],
+                    "incremental_demand_weight": c.get("incremental_demand_weight"),
+                    "covered_demand_points": len(c["covered_demand_ids"]),
+                    **{f"metric_{k}": v for k, v in c["metrics"].items()}}
+        fields = ("key", "source", "source_id", "name", "category", "role", "metric", "status", "lon", "lat",
+                  "inside_study_area", "demand_weight")
+        views = {"coverage_selected": [coverage_site(c) for c in result["selected"]],
+                 "coverage_candidates": [coverage_site(c) for c in result["candidates"]],
+                 "coverage_inputs": [{k: row[k] for k in fields} for row in result["inputs"]]}
+        if result.get("eligibility"):
+            views["coverage_facility_eligibility"] = result["eligibility"]["audit"]
+        return views
     raise ValueError(f"unknown module: {module}")
 
 

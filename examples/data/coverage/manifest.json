@@ -1,0 +1,26 @@
+{
+  "description": "Provenance of the bundled OpenStreetMap facility records used by the coverage examples.",
+  "files": {
+    "osm_facilities_southwark.json": {
+      "sha256": "c1ce55576fd2afef94b75633f1577ab8f60cd18ddf4e7dbf1ab0881bd443e482",
+      "bytes": 140592,
+      "records": 163,
+      "categories": {"charging_station": 63, "toilets": 100},
+      "coordinate_kinds": {"OSM_NODE_COORDINATE": 145, "OSM_BOUNDING_BOX_CENTER_PROXY": 18},
+      "source": "OpenStreetMap, queried through the Overpass API (https://overpass-api.de/api/interpreter) for amenity=charging_station and amenity=toilets within the bounding box of the bundled Southwark boundary",
+      "retrieved_at": "2026-10-14T19:41:34.596550+00:00",
+      "license": "Open Database License (ODbL) 1.0, https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "© OpenStreetMap contributors, https://www.openstreetmap.org/copyright",
+      "format": "JSON list of GeoPilot Entity records; OSM tags kept unchanged in properties.raw_tags, OSM type/id in properties, provenance per record",
+      "caveats": [
+        "84 of 163 representative points lie inside the Southwark polygon; the rest lie inside its bounding box.",
+        "18 records (OSM ways) use the centre of their bounding box as the coordinate, not an entrance.",
+        "No addr:* tags were returned; tags are as mapped by contributors and are not verified against current conditions."
+      ]
+    }
+  },
+  "reused_inputs": {
+    "study_zone": "../london/boroughs_subset.geojson (zone_id Southwark; OGL v3.0, see DATA_SOURCES.md)",
+    "demand_and_context": "../london/synthetic_demand.csv (synthetic; 'population' used as synthetic demand units)"
+  }
+}

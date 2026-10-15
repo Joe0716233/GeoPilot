@@ -30,6 +30,10 @@ statement about current London charging provision. The app may take a moment to 
 | Module | Input | Output |
 | --- | --- | --- |
 | `geopilot.verify` | Points, claimed zone ids, zone polygons | `PASS` / `REVIEW` / `FAIL` / `UNRESOLVED` per record, signed metric distance to the claimed boundary, reason code |
+| `geopilot.verify.assign_zones` | Points, zone polygons (no claims) | Every covering zone per point (`INSIDE` / `BOUNDARY`) and `ASSIGNED` / `MULTIPLE_MATCHES` / `ON_BOUNDARY` / `OUTSIDE_ALL_ZONES` / `NO_COORDINATE` ([docs](docs/zone_assignment.md)) |
+| `geopilot.decision.plan_coverage` | Any point data plus an explicit role mapping | Weighted-demand coverage screening with a per-record audit ([docs](docs/decision_roles.md)) |
+| `geopilot.workspace` | Uploaded CSV / GeoJSON bytes, field mapping, confirmed EPSG CRS | Per-row LOADED/REJECTED quality report, zones, assignment run, coverage run on uploads, CSV/JSON exports |
+| `geopilot.coverage_examples` | Bundled OSM facilities (ODbL), synthetic demand, Southwark | EV-charging and public-toilet coverage examples through the same `plan_coverage` ([docs](docs/coverage_examples.md)) |
 | `geopilot.resolve` | Points/records from several sources | Scored candidate pairs (`MATCH` / `REVIEW` / `NO_MATCH`), feature breakdown, conservative clusters with provenance |
 | `geopilot.decision` | Zone polygon, existing stations, demand/context points | Feasible grid candidates with component scores, greedily selected sites, existing vs incremental coverage |
 | `geopilot.tools` | lon/lat, polygons | Geodesic distance, signed point-in-polygon, metric buffer, nearest point, CRS transform |
@@ -51,8 +55,15 @@ src/geopilot/
   decision/   GeoDecision
   tools/      reusable GIS operations
   scenario.py bundled London sample loader and one-call runners
+  workspace.py custom-upload workflow (bytes -> mapped entities/zones -> assignment/coverage -> exports)
+  coverage_examples.py EV-charging / public-toilet coverage examples (one shared method)
   reporting.py JSON/CSV export
-app/streamlit_app.py      integrated offline demo
+app/streamlit_app.py      integrated offline demo (London sample, custom workspace, coverage examples)
+app/custom_workspace.py   custom-data upload page
+app/coverage_ui.py        coverage examples page and coverage on uploaded data
+examples/data/coverage/   OpenStreetMap facility records (ODbL 1.0, separate database) + manifest
+.streamlit/config.toml    5 MB upload cap
+docs/                     API notes (decision roles, zone assignment) and screenshots
 examples/run_demo.py      standalone CLI demo (--module verify|resolve|decision|all)
 examples/data/london/     bundled sample data + manifest.json
 scripts/prepare_data.py   deterministic data preparation
@@ -119,6 +130,100 @@ The **GeoVerify** and **GeoDecision** tabs show a plain lon/lat map plus metrics
 tab shows metrics, a scored-pair table and a cluster table, with no map. Each of the three analysis tabs has
 JSON and CSV download buttons. A fourth tab summarises data sources and limits. Source data is read from
 `examples/data/london` of a checkout; set `GEOPILOT_DATA_DIR` to use another folder with the same files.
+If a GeoDecision parameter combination is refused (for example by the app's work limits), the error is shown
+in that tab and the other tabs keep working.
+
+### Custom data workspace (upload)
+
+Choose **Custom data (upload)** under *Workspace* in the sidebar. The London sample is not computed on this
+page.
+
+1. Upload a point file (CSV, or GeoJSON with Point geometries) and enter a source label. For CSV, choose the
+   x (longitude/easting) and y (latitude/northing) columns; GeoJSON uses each geometry. ID, name, address,
+   category, claimed zone and demand weight are optional selectors. A field you do not map is absent; no
+   column is picked automatically.
+2. Enter the point CRS as `EPSG:<code>` and tick the confirmation box. The box starts unticked and must be
+   ticked again whenever the code changes. GCJ-02 and BD-09 are refused by name: PyProj has no
+   transformation for them, and none is guessed.
+3. Upload a Polygon/MultiPolygon GeoJSON boundary layer, choose its zone ID (and optional name) property,
+   enter a source label and confirm its CRS (independently of the points).
+4. Click **Run spatial assignment** to see status metrics, a map (zone outlines including holes; points
+   coloured by status, with the original ID and the zone names on hover) and a result table. You can
+   download `assignment_results.csv` and `assignment_run.json` (digests, CRSs, mappings and quality counts).
+
+Constraints:
+
+* **Where uploads go.** Uploaded content passes through the Streamlit server running the app and is processed
+  in that server's memory for your session; the app works only from those bytes and never reads a local path.
+  GeoPilot does not intentionally write uploaded content to disk or to a shared cache, and does not record
+  filenames; inputs are identified by SHA-256. The hosting environment (server logs, backups, network) is
+  outside GeoPilot's control, so don't upload data you are not allowed to send to that server.
+* **Size limits.** Each file is limited to 5 MB and 20,000 records. Boundary layers are limited to
+  2,000 zones, 200,000 vertices per zone and 500,000 vertices in total. Point × zone pairs are limited to
+  2 million. Each limit is checked before the work it guards.
+* **File-level errors.** These refuse the whole file with a reason: a file that isn't UTF-8 (a BOM is
+  accepted), blank or duplicate CSV headers, malformed quoting, and invalid JSON.
+* **Row-level errors.** These reject the row with a reason; rejected rows stay in the CSV export as
+  `REJECTED`. They include:
+  * a row with the wrong number of fields
+  * a non-numeric, one-sided, boolean or out-of-range coordinate
+  * an unsupported geometry type
+  * a duplicated ID: every copy of the ID is rejected
+* **Missing values.** Rows with no coordinates are kept and reported as `NO_COORDINATE`. Rows with no ID get
+  an explicitly marked temporary ID that never collides with an original ID, and the original value is kept
+  separately.
+* **Boundary layer.** Any unusable boundary feature refuses the layer, so a zone is never silently missing.
+* **Stale results.** Changing a file, mapping, CRS or source label discards the previous result and its
+  downloads. Results are kept only in your session's state on the server, not shared with other sessions.
+* **Upload cap.** Each upload is capped at 5 MB in three places: the uploader widget, `.streamlit/config.toml`
+  (`server.maxUploadSize`) and the parser. This prevents the server from buffering Streamlit's default of
+  200 MB.
+* **Strict JSON.** GeoJSON must be strict JSON: `NaN`, `Infinity` and numbers that overflow a float refuse the
+  file.
+* **CRS input.** CRSs are accepted only as `EPSG:<code>` for 2-D geographic or projected systems. WKT, PROJ
+  strings and files are not accepted.
+
+**Coverage on uploaded data** (step 4 of the same page) runs the same `plan_coverage` used by the examples:
+
+1. **Study zone:** choose one of the uploaded zones.
+2. **Roles:** give every category a role (existing facility, weighted demand, context or ignore). Roles start
+   unmapped, and an unmapped category is refused with `UNMAPPED_ROLE`.
+3. **Inputs:** set context metric names, the demand weight field and the scoring weights.
+4. **Parameters:** set the radius, target, grid and minimum distances. The only method is
+   `weighted_coverage`.
+5. **No existing facilities:** if there are none, declare it explicitly.
+
+Rejected rows and rows without coordinates must be explicitly acknowledged as excluded before the button is
+enabled. Any change to an input, role, weight or parameter discards the previous coverage result.
+
+### Coverage examples: EV charging stations vs public toilets
+
+Choose **Coverage examples** under *Workspace*. Both examples call the same `plan_coverage` function and
+weighted-coverage algorithm on the bundled Southwark boundary and synthetic demand. The only differences are
+the facility category and a generic eligibility filter. Defaults: target 3, grid 500 m, radius 500 m,
+minimum distance to existing facilities 250 m, minimum distance between new sites 600 m, demand-only weights.
+
+| Example | Facilities used | Weighted demand coverage (defaults) |
+| --- | --- | --- |
+| EV charging stations (default) | All 63 saved OSM `charging_station` records, as tagged. This is not a statement of public availability: 5 are tagged `access=yes`, 4 carry known restrictions (2 `no`, 1 `customers`, 1 `taxi`) and 54 have no access tag. The app shows these counts | 37.6 % existing → 57.2 % with 3 new sites |
+| EV charging stations (optional conservative access filter) | The 5 with `access=yes`/`permissive`. Known restrictions (`no`/`customers`/`taxi`/`private`/`permit`) are excluded, and so are the 54 without an access tag unless you opt in with a warning | 8.3 % existing → 30.5 % with 3 new sites |
+| Public toilets | 28 of 100 OSM toilets with `access=yes`/`permissive`. 18 restricted and 54 with unknown access are excluded and audited; unknown access can be opted in with a warning | 15.7 % existing → 34.6 % with 3 new sites |
+
+Caveats:
+
+* **Demand:** demand is in synthetic demand units, not observed demand.
+* **Facilities outside Southwark** (inside its bounding box) are kept, because they can cover demand inside
+  the study area.
+* **Not verified:** availability, opening hours, fees, indoor location and wheelchair access are not
+  verified.
+* **Licence:** the OSM file is a separate ODbL 1.0 database (© OpenStreetMap contributors); see
+  `DATA_SOURCES.md`.
+* **App limits:** the app uses stricter work limits than the library: 20,000 records or grid cells,
+  50 sites, 2 million pairs and 5 million greedy evaluations. More expensive combinations are refused with
+  `RESOURCE_LIMIT_EXCEEDED`.
+* **Audit:** run `python examples/audit_coverage.py` to recheck both examples independently.
+
+The London sample keeps its own 42 historic GLA records and original defaults.
 
 ## Run the tests
 
@@ -128,7 +233,28 @@ python -m pytest -q
 
 The suite covers CRS and metric-distance arithmetic against analytic values, invalid geometry/ID/parameter
 handling, status thresholds, resolution conflicts and determinism, exact coverage numbers, data-manifest
-hashes, regeneration of the synthetic files, CLI exit codes, exports and a headless render of the app.
+hashes, regeneration of the synthetic files, CLI exit codes, exports and a headless render of the app,
+including real `AppTest` uploads through the custom workspace (errors, stale-result invalidation, isolated
+sessions, map and downloads). The coverage examples are also checked independently: their coverage numbers
+are recomputed with WGS 84 geodesic distances.
+
+A separate, portable audit of both coverage examples runs offline and is also run in CI:
+
+```bash
+python examples/audit_coverage.py
+```
+
+It recomputes the following without using the screening internals or GeoPilot's spatial helpers:
+
+* the candidate grid, using direct PyProj transformations
+* coverage, scores, distance constraints and the greedy selection, using WGS 84 geodesic distances
+* source preservation
+* the charger and toilet access-tag counts and conservative eligibility
+
+It checks arithmetic and provenance, not real facility availability or observed demand.
+
+For the disclosed browser-upload gap, synthetic input files and exact manual expected results, see
+[PR #1 acceptance and deployment handoff](docs/acceptance_pr1.md).
 
 ## Interpreting spatial outputs
 

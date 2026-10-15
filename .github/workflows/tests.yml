@@ -24,3 +24,5 @@ jobs:
         run: python -m pytest -q
       - name: Offline demo
         run: python examples/run_demo.py --module all --export-dir "${RUNNER_TEMP}/geopilot-out"
+      - name: Independent coverage audit
+        run: python examples/audit_coverage.py

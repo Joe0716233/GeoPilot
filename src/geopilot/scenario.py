@@ -13,7 +13,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from geopilot.data import Entity, Zone, load_claims, load_entities, load_zones
-from geopilot.decision import DecisionConfig, plan_locations
+from geopilot.decision import DecisionConfig, ResourceLimits, plan_locations
 from geopilot.resolve import ResolveConfig, resolve_entities
 from geopilot.verify import VerifyConfig, summarise, verify_batch
 
@@ -87,9 +87,11 @@ def run_resolve(sample: LondonSample, config: ResolveConfig = ResolveConfig()) -
             "limitations": list(result.limitations)}
 
 
-def run_decision(sample: LondonSample, config: DecisionConfig = DecisionConfig()) -> dict:
+def run_decision(sample: LondonSample, config: DecisionConfig = DecisionConfig(), *,
+                 limits: ResourceLimits | None = None) -> dict:
+    """``limits`` lowers the GeoDecision work bounds (e.g. for a shared web app); default is the library's."""
     entities = sample.chargers + sample.planning_context
-    plan = plan_locations(sample.study_zone, entities, config)
+    plan = plan_locations(sample.study_zone, entities, config, limits=limits)
     return {"module": "GeoDecision", "notice": SAMPLE_NOTICE, "study_zone": sample.study_zone_id, **plan}
 
 

@@ -5,24 +5,38 @@ No network access or map tiles are needed; maps are plain lon/lat plots.
 
 The page is Simplified Chinese by default; a sidebar selector switches to English. Only display text is
 translated: result fields, export files and all numerical results are identical in both languages.
+A second sidebar selector opens the custom-data workspace (app/custom_workspace.py) for uploaded files.
 """
 
 from __future__ import annotations
 
+import sys
 from math import cos, radians
+from pathlib import Path
 
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from geopilot.decision import DecisionConfig
+from geopilot.decision import DecisionConfig, ResourceLimits
 from geopilot.reporting import tabular_views, to_csv, to_json
 from geopilot.resolve import ResolveConfig
 from geopilot.scenario import (SAMPLE_NOTICE, load_london_sample, run_decision, run_resolve,
                                run_verify)
 from geopilot.verify import VerifyConfig
 
+APP_DIR = str(Path(__file__).resolve().parent)
+if APP_DIR not in sys.path:  # the custom workspace page module lives next to this file
+    sys.path.insert(0, APP_DIR)
+import coverage_ui  # noqa: E402
+import custom_workspace  # noqa: E402
+
 REPO_URL = "https://github.com/Joe0716233/GeoPilot"
+# Stricter than the library defaults for a shared web app; the widget ranges stay well inside them
+# (London at step 100 m, radius 3000 m, 15 sites: ~5.7k cells, 0.8M pairs, 3.2M greedy evaluations).
+APP_DECISION_LIMITS = ResourceLimits(max_entities=20_000, max_grid_cells=20_000, max_target_count=15,
+                                     max_pair_evaluations=2_000_000, max_greedy_evaluations=5_000_000,
+                                     max_zone_vertices=50_000)
 STATUS_COLOURS = {"PASS": "#2b9b70", "MATCH": "#2b9b70", "REVIEW": "#e5a63b", "FAIL": "#d74f46",
                   "NO_MATCH": "#8b929d", "UNRESOLVED": "#8b929d"}
 
@@ -66,6 +80,20 @@ def t(zh: str, en: str) -> str:
 
 def status_name(code: str) -> str:
     return f"{STATUS_ZH[code]} {code}" if lang == "zh" else code
+
+
+WORKSPACES = {"london": ("伦敦示例", "London sample"), "custom": ("自定义数据（上传）", "Custom data (upload)"),
+              "examples": ("覆盖分析示例（充电站 / 公厕）", "Coverage examples (EV charging / toilets)")}
+with st.sidebar:
+    workspace = st.radio(t("工作区", "Workspace"), list(WORKSPACES), key="workspace",
+                         format_func=lambda k: t(*WORKSPACES[k]))
+# The other pages neither load nor compute the London sample, so its errors cannot block them.
+if workspace == "custom":
+    custom_workspace.render(t)
+    st.stop()
+if workspace == "examples":
+    coverage_ui.render_examples(t)
+    st.stop()
 
 
 @st.cache_resource
@@ -154,10 +182,16 @@ with st.sidebar:
 try:
     verify = run_verify(data, VerifyConfig(review_m, fail_m))
     resolve = run_resolve(data, ResolveConfig(match_s, review_s, radius))
-    decision = run_decision(data, DecisionConfig(int(target), step, service, min_exist, min_new, weights))
 except ValueError as exc:
     st.error(t(f"参数无效：{exc}", f"Invalid parameters: {exc}"))
     st.stop()
+# GeoDecision refusals (invalid weights, resource limits) are shown in their own tab only.
+decision, decision_error = None, None
+try:
+    decision = run_decision(data, DecisionConfig(int(target), step, service, min_exist, min_new, weights),
+                            limits=APP_DECISION_LIMITS)
+except ValueError as exc:
+    decision_error = exc
 
 tab_v, tab_r, tab_d, tab_about = st.tabs(
     ["GeoVerify", "GeoResolve", "GeoDecision", t("数据与局限", "Data & limits")])
@@ -233,7 +267,7 @@ with tab_r:
     st.caption(t("局限：" + " ".join(RESOLVE_LIMITS_ZH), "Limits: " + " ".join(resolve["limitations"])))
     downloads("resolve", resolve)
 
-with tab_d:
+def decision_tab(decision: dict) -> None:
     st.subheader(t(f"在 {decision['study_zone']} 基于合成需求点筛选站点",
                    f"Screening sites in {decision['study_zone']} on synthetic demand"))
     (st.success if decision["status"] == "SUCCESS" else st.warning)(decision_message(decision))
@@ -285,6 +319,13 @@ with tab_d:
                              **{f"{k}_within_radius": v for k, v in c["metrics"].items()}})
         st.dataframe(pd.DataFrame(rows), hide_index=True, width="stretch")
     downloads("decision", decision)
+
+
+with tab_d:
+    if decision is None:
+        st.error(t(f"GeoDecision 参数无效：{decision_error}", f"Invalid GeoDecision parameters: {decision_error}"))
+    else:
+        decision_tab(decision)
 
 with tab_about:
     if lang == "zh":
